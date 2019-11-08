@@ -1,0 +1,159 @@
+@media only screen and (max-width:768px){
+    .background {
+        background-color: white;
+        height: 100vh;
+        
+    padding:40px 0 0 0;
+    }  
+
+.back {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.wine-gallery {
+    background: white;
+}
+
+img {
+ padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+h5{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px 20px ;
+}
+
+.images{
+    display: flex;
+    border-bottom: 1px solid rgba(93,73,84,.4);
+    border-top: 1px solid rgba(93,73,84,.4);
+    justify-content: space-between;
+}
+
+.images img {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    display:inline-block;
+    margin:auto;
+    max-height: 150px;
+    height: 100%;
+    max-width: 33%;
+}
+
+.gallery-highlight {
+    display:block;
+    margin:auto;
+    max-height: 300px; 
+    max-width:80%   
+}
+
+.images img.active{
+    opacity: 1;    
+}
+
+.info p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size:13px;
+    padding: 2em;   
+}
+
+.info h1, h2 {
+    padding-left: 1em;
+}
+
+}
+
+@media only screen and (min-width:768px){
+
+.background {
+    background-color: white;
+    display: flex;
+    height: 100vh;
+}    
+
+.wine-gallery {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.description {
+    width: 50%;
+}
+
+.description .back {
+    display: none;
+}
+
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: RGB(14, 7, 5);
+}
+
+.info p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    padding: 3em;   
+}
+
+.info h1{
+    font-size: 4vw;
+}
+
+.info h2 {
+    font-size: 2vw;
+}
+
+
+.images{
+    display: flex;
+    border-bottom: 1px solid rgba(93,73,84,.4);
+    border-top: 1px solid rgba(93,73,84,.4);
+    justify-content: space-between;
+}
+
+.images img {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    display:inline-block;
+    margin:auto;
+    max-height: 150px;
+    height: 100%;
+    max-width: 33%;
+}
+
+.gallery-highlight {
+    display:block;
+    padding-bottom: 50px;
+    max-height: 400px; 
+    max-width:80%   
+}
+
+.images img.active{
+    opacity: 1;    
+}
+}

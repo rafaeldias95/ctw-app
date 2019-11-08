@@ -1,0 +1,16 @@
+
+<div class="background">
+<h2>Vinhos</h2>
+<section>
+<ul class="characters">
+    <li class="wine" *ngFor="let character of chars">
+        <div>
+            <a href="#" routerLink="/details/{{character.uri}}" ><img class="icon" src="{{character.images[0]}}">  <h5>{{character.name | uppercase}},</h5><p> {{character.title | lowercase}}</p></a>
+            </div>
+        </li>
+</ul>
+</section>
+</div>
+
+
+

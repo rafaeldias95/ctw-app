@@ -1,0 +1,165 @@
+
+@media only screen and (max-width: 767px){
+    .background {
+        position: absolute;
+        background-image: url("../../assets/imgs/alcohol-bar-beverage-black-background-312080.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        top:0;
+        background-repeat: no-repeat;
+        z-index: -1;
+        box-shadow: inset 0 0 0 100vw rgba(93,73,84, 0.3);
+    
+    }
+
+    .btn a {
+        color: white;
+    }
+
+    .btn {
+        line-height: 50px;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+        width: 100px;
+        margin: auto;
+        margin-top: 20px;
+        border: 1px solid white;
+        background-color: rgba(255,255,255,0.1);
+    }
+
+
+
+    .nomobile {
+        display:none;
+    }
+
+    .welcome {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:50%;
+        transform:translateY(-50%);
+    }
+
+    .welcome h1 {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20vw;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    }
+
+    .welcome h2, h3 {
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    section {
+        height: 100vh;
+        display:flex;
+    }
+
+
+    .btn a {
+        color: black;
+        font-size: 20px;
+    }
+
+    
+    .btn {
+        cursor: pointer;
+        line-height: 60px;
+        height: 60px;
+        text-align: center;
+        width: 150px;
+        margin-top: 20px;
+        border: 1px solid black;
+        background-color: rgba(255,255,255,0.1);
+    }
+
+    .montevelho{
+        width: 50%;
+        background-repeat: no-repeat;
+        background:white;
+    }
+
+    .montevelho img {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        display:block;
+        margin: 0 auto;
+        height: 70%;
+    }
+
+    .info {
+        color: white;
+        background-color: RGB(14, 7, 5);
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info h1 {
+        color: wheat;
+    }
+
+    .info h2 {
+        font-size: 2vw;
+        color: wheat;
+    }
+
+    .info p {
+        text-align: justify;
+        text-justify: inter-word;
+        font-size:1.2vw;
+        padding: 3em;   
+    }
+
+    .background{
+        width: 50%;
+        background-image: url(../../assets/imgs/photo-nic-co-uk-nic-3etN9PY6iNw-unsplash.jpg);
+        background-size: cover;
+        box-shadow: inset 0 0 0 100vw rgba(93,73,84, 0.3);
+    }
+
+    .welcome{
+        width: 50%;
+        display: flex;
+        background-color: wheat;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        font-size: 5vw;
+        width: 50%;
+
+    }
+
+    h2, h3 {
+        text-align: center;
+        padding-bottom: 40px;
+        width: 70%;
+    }
+
+    .welcome h1 {
+        color: rgba(93,73,84,01);
+    }
+
+    .welcome h2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+
+<header>
+  <div class="nav_container">
+    <div class="nav_icons">
+        <a href="#" class='logo'>VVine</a>
+        <a class="menu-toggle" (click)="sideBar()"><i *ngIf="sideOn == false; else elseBlock" class="fa fa-bars"></i></a>
+    </div>
+    <ng-template #elseBlock><i class="fa fa-times"></i> </ng-template>
+    <nav [class.active]="sideOn">
+      <ul class="nav-links">
+        <li><a href="#" routerLink="/">Home</a></li>
+        <li><a href="#" routerLink="/list">Vinhos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="app">
+  <router-outlet></router-outlet>
+</div>

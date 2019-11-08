@@ -1,0 +1,148 @@
+
+@media only screen and (max-width:768px){
+
+
+    .nav_icons{
+        padding:10px;
+    }
+
+    header nav{
+    background: rgba(93,73,84,1);
+    max-height:0px;
+    overflow:hidden;
+    transition: all 0.5s ease-in-out;
+   
+    }
+    
+
+    header nav.active {
+        max-height:500px;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;    
+    }
+
+    header nav ul li {
+        padding: 15px 0;
+        list-style: none;
+        border-top:1px solid rgba(255,255,255,0.3);
+    }
+
+
+
+    .logo{
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 16px;
+            padding-left: 10px;
+    }
+        
+    header {
+        background: #5d4954;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+        
+    header a {
+            color: white;
+            text-decoration: none;
+    }
+        
+    header a .logo {
+            font-weight: bold;
+    }
+        
+    header nav {
+            align-items: center;
+    }
+        
+        
+    .menu{
+            width: 25px;
+            height: 5px;
+            background: white;
+            margin: 5px;
+            
+    }
+        
+        
+    .menu-toggle {
+            line-height: 50%;
+            color: white;
+            float:right;
+            font-size: 20px;
+            cursor: pointer;
+            display: block;
+            padding-right: 20px;
+    }
+        
+}
+@media only screen and (min-width:768px){
+
+
+    .logo{
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 15px;
+            margin-left: 10px;
+            border-bottom: 1px solid white;
+            border-top: 1px solid white;
+        }
+    
+    .menu-toggle{
+        display: none;
+    }
+    
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background:black;
+    }
+    
+    header .nav_container{
+        background: rgba(93,73,84,1);
+        padding: 1em 0;
+        height: 50px;
+        display: flex;
+    }
+    
+    header a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header a .logo {
+        font-weight: bold;
+    }
+    
+    header nav {
+        margin-left: auto;
+        display: block;
+        width: 280px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    header nav ul {
+        list-style-type: none;
+        margin-top: 2px; 
+        display: flex;
+    }
+    
+    
+    header nav ul li a{
+        padding: 3em;
+    }
+    
+    header nav ul li a:hover{
+      filter: brightness(65%);
+    }
+    
+}
